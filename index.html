@@ -27,25 +27,18 @@
 								/>
 							</g>
 						</svg>
-						<div class="sliding-puzzle-moves-number">55</div>
+						<div class="sliding-puzzle-moves-number" data-moves>
+							0
+						</div>
 					</div>
-					<button class="sliding-puzzle-Shuffle">Shuffle</button>
-					<button class="sliding-puzzle-reset">Reset</button>
+					<button class="sliding-puzzle-reset" data-shuffle>
+						Reset
+					</button>
 				</div>
 				<div class="sliding-puzzle-game-wrapper">
-					<div class="sliding-puzzle-grid">
-						<div class="sliding-puzzle-item">1</div>
-						<div class="sliding-puzzle-item">1</div>
-						<div class="sliding-puzzle-item">1</div>
-						<div class="sliding-puzzle-item">1</div>
-						<div class=""></div>
-						<div class="sliding-puzzle-item">1</div>
-						<div class="sliding-puzzle-item">1</div>
-						<div class="sliding-puzzle-item">1</div>
-						<div class="sliding-puzzle-item">1</div>
-					</div>
+					<div class="sliding-puzzle-grid" data-grid=""></div>
 					<div class="sliding-puzzle-size">
-						<select name="sliding-puzzle-size">
+						<select name="sliding-puzzle-size" data-select>
 							<option value="3">3x3 - 9 pieces</option>
 							<option value="4">4x4 - 16 pieces</option>
 							<option value="5">5x5 - 25 pieces</option>
@@ -53,10 +46,10 @@
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 256 256"
-                            class="icon--arrow"
-                            width="18"
+							class="icon--arrow"
+							width="18"
 							height="18"
-                            fill="#dcd4c4"
+							fill="#dcd4c4"
 						>
 							<path
 								d="M254.307 69.55a9.806 9.806 0 0 0-2.88-6.956c-3.84-3.84-10.069-3.84-13.907 0l-109.663 109.66-109.66-109.66c-3.842-3.84-10.069-3.84-13.91 0-3.839 3.842-3.839 10.069 0 13.91l116.615 116.615c3.838 3.841 10.068 3.841 13.907 0L251.424 76.504a9.797 9.797 0 0 0 2.883-6.955z"
